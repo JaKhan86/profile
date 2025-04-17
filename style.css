@@ -1,0 +1,91 @@
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.primary-heading {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+}
+
+.subheading {
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.description {
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+
+.btn-primary {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary:hover {
+  background-color: black;
+}
+
+
+.section-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.social-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-links li {
+  display: inline;
+  padding: 15px;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+/* Social Links */
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Flexbox for easy alignment */
+  justify-content: center; /* Center the icons */
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0 15px; /* Space between the icons */
+  font-size: 30px; /* Default icon size */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.social-links li i {
+  font-size: 3rem; /* 3x default size of the icon */
+  color: #575F7D; /* Default color */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.social-links li:hover i {
+  color: #6B72E1; /* Change color on hover */
+  transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}
+
+.social-links li i:hover {
+  color: #6B72E1; /* Make it more prominent on hover */
+}
